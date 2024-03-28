@@ -386,6 +386,6 @@ class SirNotAppearingInThisFilm(TestCase):
         print("Hello")
 
 
-class SirNotAppearingInThisFilm(TestCase):
+class SirNotAppearingInThisFilm2(TestCase):
     def never_run(self):
         print("Hello")
