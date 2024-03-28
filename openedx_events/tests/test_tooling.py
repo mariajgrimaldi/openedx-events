@@ -384,3 +384,8 @@ class TestLoadAllSignals(FreezeSignalCacheMixin, TestCase):
 class SirNotAppearingInThisFilm(TestCase):
     def never_run(self):
         print("Hello")
+
+
+class SirNotAppearingInThisFilm2(TestCase):
+    def never_run(self):
+        print("Hello")
